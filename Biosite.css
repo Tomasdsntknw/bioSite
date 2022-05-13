@@ -1,0 +1,148 @@
+body {
+    margin: 0%;
+    font-family:'Lobster';
+    background-image: linear-gradient(to right,#AEB5FB, #FBCEAE);
+}
+
+header {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-family:'Lobster';
+    color: #2B3F39;
+    padding: 20px;
+    text-align: center;
+    background-color: #AEFBF4;
+}
+
+#bio-content {
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: 0.3s;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #FBAEDB;
+}
+
+#navbar a {
+    font-family:'Sorts Mill Goudy', serif;
+    font-weight: 700;
+    float: left;
+    display: block;
+    color: #2B3F39;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-image: linear-gradient(to right, #AEFBF4, #FBAEDB);
+    color: #2B3F39;
+}
+
+#title {
+    color: #2B3F39;
+    padding: 20px;
+    text-align: center;
+    font-family:'Lobster';
+}
+
+#interview {
+    font-family: 'Sorts Mill Goudy, serif';
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: start;
+}
+
+#about {
+    font-family: 'Sorts Mill Goudy, serif';
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: start;
+}
+
+#image-gallery {
+    display: grid;
+    align-content: center;
+}
+
+img {
+    width: 480px; 
+    height: 650px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    color: #2B3F39;
+    font-family:'Sorts Mill Goudy', serif;
+    font-style:oblique;
+    margin-bottom: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+}
+
+#container {
+    color: #2B3F39;
+    padding: 10px;
+    text-align: center;
+}
+
+#style-list {
+    margin-left: 33%;
+    color: #2B3F39;
+    text-align: left;
+    list-style-position: inside;
+    font-family:'Sorts Mill Goudy', serif;
+}
+
+#container-video {
+    margin-bottom: 5%;
+    color: #2B3F39;
+    padding: 2px 16px;
+    text-align: center;
+    align-content: center;
+    font-family:'Lobster';
+}
+
+#bottom-space {
+    margin-bottom: 5%;
+}
+
+footer {
+    background-color: #FBAEDB;
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    color: #2B3F39;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: .75em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2B3F39;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
