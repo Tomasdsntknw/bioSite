@@ -1,27 +1,27 @@
 body {
-    margin: 0%;
-    font-family:'Lobster';
     background-image: linear-gradient(to right,#AEB5FB, #FBCEAE);
+    font-family:'Lobster';
+    margin: 0%;
 }
 
 header {
+    background-color: #AEFBF4;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    font-family:'Lobster';
     color: #2B3F39;
+    font-family:'Lobster';
     padding: 20px;
     text-align: center;
-    background-color: #AEFBF4;
 }
 
 #bio-content {
     background-color: #fff;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    margin-bottom: 5%;
+    margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
     transition: 0.3s;
 }
 
@@ -30,18 +30,18 @@ h1 {
 }
 
 #navbar {
-    overflow: hidden;
     background-color: #FBAEDB;
+    overflow: hidden;
 }
 
 #navbar a {
+    color: #2B3F39;
+    display: block;
     font-family:'Sorts Mill Goudy', serif;
     font-weight: 700;
     float: left;
-    display: block;
-    color: #2B3F39;
-    text-align: center;
     padding: 14px 16px;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -52,9 +52,9 @@ h1 {
 
 #title {
     color: #2B3F39;
+    font-family:'Lobster';
     padding: 20px;
     text-align: center;
-    font-family:'Lobster';
 }
 
 #interview {
@@ -66,20 +66,47 @@ h1 {
 
 #about {
     font-family: 'Sorts Mill Goudy, serif';
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: start;
+}
+
+#hobbies {
+    font-family: 'Sorts Mill Goudy, serif';
+    margin-bottom: 10%;
     margin-left: 25%;
     margin-right: 25%;
     text-align: start;
 }
 
 #image-gallery {
-    display: grid;
     align-content: center;
+    display: grid;
+}
+
+#image-gallery-a {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#gallery-item-a {
+    border-radius: 15px;
+    padding: 5px;
 }
 
 img {
-    width: 480px; 
-    height: 650px;
+    width: 420px; 
+    height: 600px;
+}
+
+#img {
+    width: 200px;
+    height: 150px;
+}
+
+.column {
+    column-count: 3;
 }
 
 figure {
@@ -103,46 +130,24 @@ figcaption {
 }
 
 #style-list {
-    margin-left: 33%;
     color: #2B3F39;
-    text-align: left;
-    list-style-position: inside;
     font-family:'Sorts Mill Goudy', serif;
+    list-style-position: inside;
+    margin-left: 33%;
+    text-align: left;
 }
 
 #container-video {
-    margin-bottom: 5%;
+    align-content: center;
     color: #2B3F39;
+    font-family:'Lobster';
+    margin-bottom: 5%;
     padding: 2px 16px;
     text-align: center;
-    align-content: center;
-    font-family:'Lobster';
 }
 
 #bottom-space {
     margin-bottom: 5%;
-}
-
-footer {
-    background-color: #FBAEDB;
-    position: absolute;
-    bottom: 0;
-}
-
-footer p {
-    color: #2B3F39;
-    font-weight: 400;
-    float: right;
-    padding-right: 10px;
-    font-style: italic;
-    font-size: .75em;
-}
-
-footer a {
-    text-decoration: none;
-    color: #2B3F39;
-}
-
-footer a:hover {
-    text-decoration: underline;
+    margin-top: 5%;
+    padding: 2px 16px;
 }
